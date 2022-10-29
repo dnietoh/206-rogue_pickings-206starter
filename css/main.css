@@ -50,40 +50,27 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 100%;
 }
 
 header h1 {
 	margin: 0;
 	padding: 38px 0;
-	display: flex;
-	justify-content: center;
+	width: 100%;
 	align-items: center;
-	flex-flow: row wrap;
 }
 
 header h1 span {
 	color: #77a466;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
 }
 
 header nav {
 	padding: 46px 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
 }
 
 header nav ul {
 	margin: 0;
 	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
 }
 
 header nav ul li {
@@ -91,19 +78,11 @@ header nav ul li {
 	font-weight: 700;
 	font-size: 14px;
 	padding: 0 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
 }
 
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
 }
 
 /*The widths are in a percentage!*/
@@ -114,6 +93,7 @@ header nav ul li a{
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 100%;
 }
 
 .main-image {
@@ -146,7 +126,7 @@ header nav ul li a{
 	width: 33%;
 	height: auto;
 	border-top: 1px solid #eee;
-
+	width: 100%;
 }
 
 .section-one h3 {
@@ -193,6 +173,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 100%;
 }
 
 footer span {
@@ -200,8 +181,4 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 14px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
 }
